@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form_advanc.com</title>
+    <style>
+        .first{
+            background-color: rgb(150, 201, 221);
+        }
+    </style>
+</head>
+<body>
+    <fieldset class="first">
+        <legend>Incury From</legend>
+        Name: <input type="text" placeholder="Please enter your name." maxlength="25" />
+       <br/>
+       <br/>
+       Address: <textarea></textarea>
+       <br/><br/>
+       Gender:<input type="radio" value="m" name="gender">Male
+       <input type="radio"value="f" name="gender">Female
+       <input type="radio"value="o" name="gender">Other<br/><br/>
+       Contry:
+       <select>
+           <option>Please select your contry</option>
+           <optgroup label="Asia">
+           <option>India</option>
+           <option>Pakistan</option>
+           <option>Shri Lenka</option>
+           <option>Bangladesh</option>
+           </optgroup>
+           <optgroup label="America">
+           <option>USA</option>
+           <option>Breton</option>
+           <option>Ingland</option>
+           </optgroup>
+       </select><br/><br/>
+       Job: <input type="checkbox" name="job[]"/> Data Entry Oprater
+       <input type="checkbox" name="job[]"/> Typing
+       <input type="checkbox" name="job[]"/> Web Devloper
+       <input type="checkbox" name="job[]"/> App Dovloper<br/><br/>
+       Img: <input type="file" name="imeag"
+       <br/><br/><br/>
+        Color:
+        <input type="color" name="color"/>
+        <br/><br/>
+        Email:
+        <input type="email" name="email"/>
+        <br/><br/>
+        Password:
+        <input type="password" name="password"/>
+        <br/><br/>
+        Date:
+        <input type="date" name="date"/>
+        <br/><br/>
+        Date of birth:
+        <input type="date" name="number" min="5" max="15"/>
+        <br/><br/>
+        Phone Noumber:
+        <input type="number" name="pnumber"
+        <br/><br/><br/>
+        Hidden:
+        <input type="hidden" name="hidden"/>
+        <br/><br/>
+        <input type="submit" name="submit"/>
+    </fieldset>
+</body>
+</html>
